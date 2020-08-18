@@ -17,43 +17,45 @@
 
   <body>
     <!--hat-->
-    <header class="container header portfolio">
-      <a href="" class="logo link"
-        ><span class="accent-logo">Web</span>Studio</a
-      >
-      <nav>
-        <ul class="site-nav list">
+    <header class="header-portfolio">
+      <div class="container header portfolio">
+        <a href="" class="logo link"
+          ><span class="accent-logo">Web</span>Studio</a
+        >
+        <nav>
+          <ul class="site-nav list">
+            <li class="item">
+              <a href="./index.html" class="link">Студия</a>
+            </li>
+            <li class="item">
+              <a href="./portfolio.html" class="link current">Портфолио</a>
+            </li>
+            <li class="item"><a href="" class="link">Контакты</a></li>
+          </ul>
+        </nav>
+        <ul class="contacts list">
           <li class="item">
-            <a href="./index.html" class="link">Студия</a>
+            <a href="mailto:info@devstudio.com" class="link contact">
+              <svg width="16" height="12" class="icon-contact">
+                <use href="./images/sprite.svg#icon-letter"></use>
+              </svg>
+              info@devstudio.com
+            </a>
           </li>
           <li class="item">
-            <a href="./portfolio.html" class="link current">Портфолио</a>
+            <a href="tel:+38-096-111-11-11" class="link contact">
+              <svg width="10" height="16" class="icon-contact">
+                <use href="./images/sprite.svg#icon-tel"></use>
+              </svg>
+              +38 096 111 11 11
+            </a>
           </li>
-          <li class="item"><a href="" class="link">Контакты</a></li>
         </ul>
-      </nav>
-      <ul class="contacts list">
-        <li class="item">
-          <a href="mailto:info@devstudio.com" class="link contact">
-            <svg width="16" height="12" class="icon-contact">
-              <use href="./images/sprite.svg#icon-letter"></use>
-            </svg>
-            info@devstudio.com
-          </a>
-        </li>
-        <li class="item">
-          <a href="tel:+38-096-111-11-11" class="link contact">
-            <svg width="10" height="16" class="icon-contact">
-              <use href="./images/sprite.svg#icon-tel"></use>
-            </svg>
-            +38 096 111 11 11
-          </a>
-        </li>
-      </ul>
+      </div>
     </header>
     <main>
-      <div class="container">
-        <section class="portfolio">
+      <section class="portfolio">
+        <div class="container">
           <section class="filter-section">
             <h1 class="visually-hidden">Портфолио</h1>
             <!-- filter -->
@@ -293,8 +295,8 @@
               </li>
             </ul>
           </section>
-        </section>
-      </div>
+        </div>
+      </section>
     </main>
     <!--footer-->
     <footer class="footer">
